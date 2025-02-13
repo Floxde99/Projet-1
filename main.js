@@ -107,7 +107,6 @@ const res2 = ["Un témoin affirme avoir vu une silhouette fuir l’hôtel.",
 for (let index = 0; index < 12; index++) {
     if (index != 2 && index != 6 && index != 7 && index != 11 && index != 12 && index != 13 && index != 14) {
         console.log(Etape(titre[index], txt[index], prop1[index], prop2[index], res1[index], res2[index], resultats[index]));
-        console.log(resultats);
 
     } else if (index == 2) {
         if (resultats[0] == 2) {
