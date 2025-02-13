@@ -143,30 +143,41 @@ for (let index = 0; index < 12; index++) {
 
 }
 if (resultats[8] == 2 && resultats[10]==1) {
-    console.log("Etape 10 :Le Règne ou l’Oubli");
-    console.log("🏛️  Bravo! Vous êtes le Roi légitime");
+    console.log("Mason était le second tueur, mais sans preuve suffisante, il disparaît.");
+    console.log("Eliot est suspendu et l'affaire est classée sans suite.");
 
 } else if (resultats[8] == 1 && resultats[12]==1) {
-    console.log("Etape 10 :Le Règne ou l’Oubli");
-    console.log("🌍  Vous avez abandonné vos cammarades! Vous êtes l'Exilé");
+    console.log("Les preuves accumulées permettent d’inculper Mason.");
+    console.log("Mais Eliot sent que tout n’est pas encore résolu…");
 
 } else if (resultats[3] == 1 && resultats[11] == 1 ) {
-    console.log("Etape 10 :Le Règne ou l’Oubli");
-    console.log("🔥 Vous avez abandonné la monarchie et libéré le peuple!!! Vous êtes le Réformateur");
+    console.log("Une lettre de menace prouve que quelqu’un d’autre tire les ficelles.");
+    console.log("L’affaire n’est pas finie…");
 
 } else if (resultats[9]==2 && resultats[14]==2){
-    console.log("Etape 10 :Le Règne ou l’Oubli");
-    console.log("Work in progress...");
+    console.log("Jack était complice de Mason depuis le début");
+    console.log("Il fait accuser Eliot pour protéger son secret.");
 
-}else if (resultats[12]==) {
+}else if (resultats[12]==2) {
+    console.log("Eliot n’a pas assez d’éléments pour prouver quoi que ce soit");
+    console.log("Le NYPD clôt l’enquête, et le tueur disparaît dans la nature.");
     
 } else {
+    console.log("Vous êtes seul dans avec lui se sentant coincé, il sort son fusil");
+    console.log("et vous tue.");
+    console.log("Votre corps n'as j'amais été retrouvé, tout le monde se demande où vous êtes car vous n'aviez prevenu personne.");
+    console.log("Votre famille est détruite votre fils promet à sa meère qu'un jour il vous retrouvera..");
+    console.log("A suivre.");
+    
+    
+    
+    
     
 }
 console.log("The End");
 console.log("Thanks for playing");
-console.log("If you enjoy the game and you want more on the Elyas's storie. Tell us and we will working onnn... ");
-console.log("🎭 L’Exil du Dernier Héritier II");
+console.log("If you enjoy the game and you want more on the this . Tell us and we will working onnn... ");
+console.log("🎭 L'Ombre du Passé II");
 console.log("© Flo & Chat-GPT4");
 
 
@@ -187,9 +198,9 @@ function Etape(titre, txt, prop1, prop2, res1, res2) {
     proposition2 = prop2
     console.log(proposition2);
 
-    let choice = Number(prompt(" Quelle voie choisi tu héritier ? : "))
+    let choice = Number(prompt(" Quel choix fais tu chef ? : "))
     while (choice != 1 && choice != 2) {
-        choice = Number(prompt("Cher héritier il semble que votre aventure vous a fatigué, veuillez choisir la voie 1 ou la voie 2 : "))
+        choice = Number(prompt("Chef ce n'est pas bon il faut faut choisir l ou 2 : "))
     }
     resultats.push(choice)
     if (choice == 1) {
