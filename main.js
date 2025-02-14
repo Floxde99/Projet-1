@@ -104,7 +104,7 @@ const res2 = ["Un témoin affirme avoir vu une silhouette fuir l’hôtel.",
     "Mason disparaît temporairement, mais vous le suivez de loin.",
     "Vous choisissez de dissimuler certaines vérités pour protéger Jack.",
     "L’enquête est officiellement terminée, mais des doutes subsistent."]
-for (let index = 0; index < 14; index++) {
+for (let index = 0; index < 15; index++) {
     if (index != 2 && index != 6 && index != 7 && index != 11 && index != 12 && index != 13 && index != 14) {
         console.log(Etape(titre[index], txt[index], prop1[index], prop2[index], res1[index], res2[index], resultats[index]));
 
