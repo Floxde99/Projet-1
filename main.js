@@ -161,7 +161,7 @@ if (resultats[8] == 2 && resultats[10]==1) {
     console.log("Eliot n’a pas assez d’éléments pour prouver quoi que ce soit");
     console.log("Le NYPD clôt l’enquête, et le tueur disparaît dans la nature.");
     
-} else if ([resultats12]==1) {
+} else if (resultats[12]==1) {
     console.log("Vous êtes seul dans avec lui se sentant coincé, il sort son fusil");
     console.log("et vous tue.");
     console.log("Votre corps n'a j'amais été retrouvé, tout le monde se demande où vous êtes car vous n'aviez prévenu personne.");
