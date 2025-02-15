@@ -164,14 +164,9 @@ if (resultats[8] == 2 && resultats[10]==1) {
 } else {
     console.log("Vous êtes seul dans avec lui se sentant coincé, il sort son fusil");
     console.log("et vous tue.");
-    console.log("Votre corps n'as j'amais été retrouvé, tout le monde se demande où vous êtes car vous n'aviez prevenu personne.");
-    console.log("Votre famille est détruite votre fils promet à sa meère qu'un jour il vous retrouvera..");
-    console.log("A suivre.");
-    
-    
-    
-    
-    
+    console.log("Votre corps n'a j'amais été retrouvé, tout le monde se demande où vous êtes car vous n'aviez prévenu personne.");
+    console.log("Votre famille est détruite votre fils promet à sa mère qu'un jour il vous retrouvera..");
+    console.log("A suivre.");    
 }
 console.log("The End");
 console.log("Thanks for playing");
